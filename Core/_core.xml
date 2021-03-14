@@ -1,3 +1,7 @@
 <Ui xmlns='http://www.blizzard.com/wow/ui/'>
     <Script file='Utils.lua'/>
+    <Script file='Fonts.lua'/>
+    <Script file='WakeUp.lua'/>
+    <Script file='ShadowedUFFacade.lua'/>
+    <Script file='CRF_Fix.lua'/>
 </Ui>

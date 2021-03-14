@@ -1,7 +1,9 @@
 ## Interface: 90005
-## Title: |cff44CCFFF&D LIGHTUI|r |cffff0000ALPHA|r
-## Notes: Placeholder.
+## Title: |cff44CCFFF&D LIGHTUI|r |cffff0000Alpha|r
+## Notes: LightUI Config.
 ## Author: Deltaray
 ## Version: 0.9.0
+## RequiredDeps: ShadowedUnitFrames, Masque
 
 Core\_core.xml
+Skins\_skins.xml
