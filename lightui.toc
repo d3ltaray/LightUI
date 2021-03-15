@@ -4,6 +4,14 @@
 ## Author: Deltaray
 ## Version: 0.9.0
 ## RequiredDeps: ShadowedUnitFrames, Masque
+## OptionalDeps: LibStub, LibSharedMedia-3.0
+
+#@no-lib-strip@
+Libs\LibStub\LibStub.lua
+Libs\CallbackHandler-1.0\CallbackHandler-1.0.xml
+Libs\LibSharedMedia-3.0\lib.xml
+#@end-no-lib-strip@
 
 Core\_core.xml
 Skins\_skins.xml
+Media\SharedMedia.lua
