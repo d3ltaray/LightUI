@@ -4,4 +4,5 @@
     <Script file='WakeUp.lua'/>
     <Script file='ShadowedUFFacade.lua'/>
     <Script file='CRF_Fix.lua'/>
+    <Script file='LightUI.lua'/>
 </Ui>

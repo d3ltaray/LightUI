@@ -1,5 +1,6 @@
 -- Скин М+ составляющей.
 local function skin_Blizzard_ChallengesUI()
+    ChallengesKeystoneFrame:SetFrameStrata("DIALOG")
     local _,hideit = ChallengesFrame:GetRegions()
     hideit:Hide()
 
@@ -18,7 +19,7 @@ local function skin_Blizzard_ChallengesUI()
     ChallengesKeystoneFrame.KeystoneSlot.Texture:SetTexCoord(0.15, 0.85, 0.15, 0.85)
     ChallengesKeystoneFrame.KeystoneSlot:SetSize(67,67)
     ui_SetTexture(ChallengesKeystoneFrame.InstructionBackground,"Interface\\FrameGeneral\\UI-Background-Marble.BLP")
-    ui_CreateBorder(ChallengesKeystoneFrame,378,64,"Bottom",0,78,14,"MEDIUM")
+    ui_CreateBorder(ChallengesKeystoneFrame,378,64,"Bottom",0,78,14,"DIALOG")
     ChallengesFrameInset.Bg:Hide()
 
     local function lightui_ChallengesKeystoneFrame()
