@@ -2,4 +2,5 @@
     <Script file='ChallengesUI.lua'/>
     <Script file='AddonsList.lua'/>
     <Script file='PVPUI.lua'/>
+    <Script file='PVEFrame.lua'/>
 </Ui>
