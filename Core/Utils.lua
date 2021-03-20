@@ -29,7 +29,7 @@ local function uiFunctions()
             arg1:SetTexture(arg2)
         end
     end
-    -- Background creating
+    -- Функция для создания бекграундов.
     function ui_CreateBG(parent, size, offset, a)
         local frame = parent
         if parent:GetObjectType() == "Texture" then

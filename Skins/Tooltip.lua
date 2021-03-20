@@ -10,6 +10,7 @@ local function skinTooltip()
         local bar = frame.Bar
         local label = bar.Label
         if bar then
+            bar:DisableDrawLayer("BORDER")
             ui_CreateBG(bar, 2, 1, 1)
             label:ClearAllPoints()
             label:SetPoint("CENTER", bar, 0, 0)
