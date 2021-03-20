@@ -41,8 +41,8 @@ local function skin_Blizzard_PVPUI()
     local function ui_HonorFrameBonusFrame_Update()
         -- Если потасовка активна, скиним иконку награды.
         if BonusFrame.BrawlButton.Reward:IsShown() then
-            BonusFrame.BrawlButton.CircleMask:Hide()
-            BonusFrame.BrawlButton.Icon:SetTexCoord(0.85, 0.15, 0.15, 0.85)
+            BonusFrame.BrawlButton.Reward.CircleMask:Hide()
+            BonusFrame.BrawlButton.Reward.Icon:SetTexCoord(0.85, 0.15, 0.15, 0.85)
             ui_CreateBorder(BonusFrame.BrawlButton,38,38,"RIGHT",-21,-1,14,"HIGH")
         end
     end

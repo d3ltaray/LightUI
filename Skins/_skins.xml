@@ -3,4 +3,6 @@
     <Script file='AddonsList.lua'/>
     <Script file='PVPUI.lua'/>
     <Script file='PVEFrame.lua'/>
+    <Script file='Custom.lua'/>
+    <Script file='Tooltip.lua'/>
 </Ui>

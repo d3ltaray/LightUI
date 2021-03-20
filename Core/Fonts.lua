@@ -97,7 +97,7 @@ function Addon:SetFonts(event, addon)
     -------------------------(CHECKED)--------------------------
     SetFont(QuestFontNormalSmall,NORMAL,12)
     SetFont(SystemFont_Large,NORMAL,16)
-    SetFont(SystemFont_Med1,NORMAL,12)
+    SetFont(SystemFont_Med1,NORMAL,12,"OUTLINE",nil,nil,nil,0,0,0,0,0)
     SetFont(SystemFont_Med2,NORMAL,13)
     SetFont(SystemFont_Med3,NORMAL,14)
     SetFont(Tooltip_Small,NORMAL,11)

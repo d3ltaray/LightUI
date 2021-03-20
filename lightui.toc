@@ -2,7 +2,7 @@
 ## Title: |cff44CCFFF&D LIGHTUI|r |cffff0000Alpha|r
 ## Notes: LightUI Config.
 ## Author: Deltaray
-## Version: 0.9.0
+## Version: 0.9.5
 ## RequiredDeps: ShadowedUnitFrames, Masque
 ## OptionalDeps: LibStub, LibSharedMedia-3.0
 

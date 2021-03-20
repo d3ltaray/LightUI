@@ -29,6 +29,31 @@ local function uiFunctions()
             arg1:SetTexture(arg2)
         end
     end
+    -- Background creating
+    function ui_CreateBG(parent, size, offset, a)
+        local frame = parent
+        if parent:GetObjectType() == "Texture" then
+            frame = parent:GetParent()
+        end
+        local lvl = frame:GetFrameLevel()
+
+        local bg = CreateFrame("Frame", nil, frame, BackdropTemplateMixin and "BackdropTemplate")
+        bg:ClearAllPoints()
+        bg:SetPoint("TOPLEFT", parent, -size, size)
+        bg:SetPoint("BOTTOMRIGHT", parent, size, -size)
+        bg:SetFrameLevel(lvl == 0 and 0 or lvl - 1)
+        bg:SetBackdrop({
+            bgFile = "Interface\\Buttons\\WHITE8x8",
+            tile = false,
+            edgeFile = nil,	-- 陰影邊框
+            edgeSize = offset,	-- 邊框大小
+            insets = { left = offset, right = offset, top = offset, bottom = offset },
+        })
+        bg:SetBackdropColor(0, 0, 0, a)
+        bg:SetBackdropBorderColor(0, 0, 0, 1)
+
+        return bg
+    end
 
 end
 
