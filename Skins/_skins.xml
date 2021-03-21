@@ -5,4 +5,5 @@
     <Script file='PVEFrame.lua'/>
     <Script file='Custom.lua'/>
     <Script file='Tooltip.lua'/>
+    <Script file='TimerTracker.lua'/>
 </Ui>

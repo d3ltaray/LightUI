@@ -20,3 +20,6 @@ local MediaPath = {
 --  BORDER
 -- ----
 LSM:Register(MediaKey['border'], "Black Border", MediaPath['texture'] .. "blackborder.blp")
+LSM:Register(MediaKey['statusbar'], "LightUI Norm", MediaPath['texture'] .. "NormTex2.tga")
+LSM:Register(MediaKey['statusbar'], "LightUI Blank", MediaPath['texture'] .. "White8x8.tga")
+LSM:Register(MediaKey['background'], "LightUI Blank", MediaPath['texture'] .. "White8x8.tga")
